@@ -7,7 +7,7 @@ def juego_adivinar_palabra():
     letras_adivinadas = []
     intentos = 6 #números de intentos permitidos
 
-    print("¡Bienvenido al juego de Adivina la palabra secreta!")
+    print("¡Bienvenido al juego de Adivina la palabra secreta!, ¡mucha suerte!")
 
     #bucle principal del juego
     while intentos > 0:
@@ -36,3 +36,5 @@ def juego_adivinar_palabra():
         print("😢 Has perdido. La palabra era:", palabra_secreta)
 
 juego_adivinar_palabra()
+
+
